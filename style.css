@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3em;
+    color: rgb(54, 50, 52);
+    background: rgb(161, 233, 255);
+    
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h1 {
+    text-align: center;
+    font-size: 2.3em;
+    width: 100%;
+    color: rgb(54, 50, 52);
+}
+
+.bloc {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid rgb(46, 35, 24);
+    border-radius: 7px;
+
+    padding-top: 50px;
+    margin: 70px 0;
+    max-width: 40%;
+}
+
+.bloc i {
+    position: absolute;
+    top: -50px;
+    left: 5px;
+    padding: 15px;
+    background: rgb(161, 233, 255);
+    font-size: 3em;
+}
+
+li {
+    padding-right: 40px;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
+
+.lesboutons {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.bouton {
+    margin: 15px;
+    border-radius: 15px;
+    border : 1px solid rgba(119, 68, 21, 0.37);
+
+    padding: 30px;
+    color: rgb(29, 29, 29);
+}
+
+.bouton:hover {
+    box-shadow: 3px 3px 5px rgba(46, 31, 24, 0.548);
+    cursor: pointer;
+}
+
+.bouton:active {
+    box-shadow: none;
+}
+
+.bouton--add {
+    background: linear-gradient(to right, rgb(127, 230, 101), rgb(111, 216, 85));
+}
+
+.bouton--clear {
+    background: linear-gradient(to right, rgb(255, 221, 215), rgb(255, 185, 185));
+}
+
+
+input {
+    font-size: 1.1em;
+    font-style: inherit;
+    width: 50%;
+}
+
+.addTodo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.displayNone {
+    display: none;
+}
